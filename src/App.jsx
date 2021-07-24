@@ -18,7 +18,7 @@ function App() {
               img.src = fukidashi // 描画する画像など
               img.onload = () => {
                   context.drawImage(img,0,0)
-                  context.font = (fontSize+'px Sans')
+                  context.font = (fontSize+'px Noto Sans JP')
                   context.textAlign = 'center'
                   context.textBaseline = 'middle'
                   context.fillText(text, 650, 340)
@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+
       <header className="App-header" style={{textAlign:'center'}}>
         <h1>
           プラカードジェネレータ

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
 .body {
   padding: 0% 1vw;
 }
@@ -5,4 +7,8 @@
 .canvasWrapper {
   width: 1280px;
   margin: 0 auto;
+}
+
+.canvasWrapper{
+  font-family: 'Kosugi', sans-serif;
 }
