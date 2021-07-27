@@ -63,9 +63,6 @@ function App() {
             Download
           </button>
         </body>
-      <footer>
-        created by <a href="https://twitter.com/E_oxypetalum_7">@E_oxypetalum_7</a>
-      </footer>
     </div>
   );
 }
