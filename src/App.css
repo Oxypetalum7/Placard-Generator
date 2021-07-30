@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
 
 .body {
-  padding: 0% 1vw;
+  padding: 0 0;
+  text-align: center;
 }
+
+footer{
+  text-align: center;
+  margin-top: 3em;
+}
+
+.share{
+  margin-top: 0.3em;
+}
+
 
 .canvasWrapper {
   width: 1280px;
@@ -11,4 +22,24 @@
 
 .canvasWrapper{
   font-family: 'Kosugi', sans-serif;
+}
+
+canvas{
+  width: 600px;
+}
+
+
+@media (max-width:1280px){
+  .canvasWrapper {
+    width: 60%;
+  }
+  canvas{
+    width: 100%;
+  }
+}
+
+@media (max-width:500px){
+  .canvasWrapper {
+    width: 80%;
+  }
 }
