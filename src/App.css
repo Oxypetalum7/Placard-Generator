@@ -28,7 +28,10 @@ canvas{
 }
 
 #generatebtn{
+  height: 4rem;
+}
 
+#download{
   height: 4rem;
 }
 
